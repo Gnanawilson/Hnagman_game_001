@@ -20,12 +20,12 @@ while not game_over:
         lives-=1    
         if lives==0:
             game_over= True
-            print("You lose!!!")   
+            print("You lose!!!👎")   
             
             
     if '_' not in display:
         game_over = True
-        print("you win!!")
+        print("you win!!🏆")
     else:
             
       print(hangman_file.stages[lives])        
